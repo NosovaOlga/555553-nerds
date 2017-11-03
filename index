@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Дизайн-студия Нёрдс</title>
+<body>
+	<header class="main-header">
+		<nav class="main-navigation">
+			<a class="main-header-logo">
+			<img src="img/index-logo.svg" width="100" height="100" alt="Логотип дизайн-студии Нёрдс">
+		</a>
+			<ul class="site-navigation">
+				<li><a href="studio.html">Студия</a></li>
+				<li><a href="clients.html">Клиенты</a></li>
+				<li><a href="catalog.html">Магазин</a></li>
+				<li><a href="contacts.html">Контакты</a></li>
+			</ul>
+			<ul class="basket">
+				<li class="login-link">Корзина</li>
+			</ul>
+		</nav>
+	</header>
+	<main class="container">
+		<h1 class="visually-hidden">Дизайн-студия Нёрдс</h1>
+		<section class="slogan">
+			<h2 class="slogan-headline">Долго, дорого,скрупулезно</h2>
+			<p>Математически выверенный дизайн для вашего сайта или мобильного приложения</p>
+			<img src="img/index-mobile.svg" alt="Мобильные телефоны">
+			<a class="button" href="info.html">Узнать больше</a>
+		</section>
+		<section class="services">
+			<h3>Веб-сайты</h3>
+			<ul class="web-sites">
+				<li class="sites-item">
+			<p>Мир никогда не будет прежним после того как увидит ваш сай!</p>
+		</li>
+		<li>
+			<a class="button" href="order.html">Заказать</a>
+		</li>
+	</ul>
+	<h3>Приложения</h3>
+			<ul class="annexes">
+				<li class="annexes-item">
+			<p>Покорите топ-10 приложений в AppStore и Google Play</p>
+		</li>
+		<li>
+			<a class="button" href="order.html">Заказать</a>
+		</li>
+	</ul>
+	<h3>Презентации</h3>
+			<ul class="presentations">
+				<li class="presentations-item">
+			<p>Вы даже не подозреваете, насколько вы изумительны!</p>
+		</li>
+		<li>
+			<a class="button" href="order.html">Заказать</a>
+		</li>
+	</ul>
+</section>
+	<div>
+		<p><b>Мы - маленькая но гордая дизайн-студия из Краснодара!</b></p>
+		<h4>Выполняем заказы на разработку:</h4>
+		<ul class="content">
+			<li>Веб-сайтов любо сложности</li>
+			<li>Мобильный приложений для IOS и Android</li>
+			<li>Слайдшоу и видео для корпоративных презентаций</li>
+		</ul>
+	</div>
+	<section class="quality">
+		<img src="img/index-logo.svg" width="100" height="100" alt="Логотип дизайн-студии Нёрдс">
+		<h5>С 2004 года любим точность во всем:</h5>
+		<ul class="quality-item">
+			<li><span class="%">146%</span> Уровень самоотдачи</li>
+			<li><span class="%">100%</span> Соблюдение сроков</li>
+			<li><span class="%">50%</span> Минимальная предоплата</li>
+		</ul>
+	</section>
+	<div class="image-partners">
+		<img src="img/index-partners.svg" width="100" height="100" alt="Логотипы партнеров">
+	</div>
+</main>
+		<footer class="main-footer">
+			<p class="footer-contacts">
+				NЁRDS DESING STUDIO<br>
+				191186, Санкт-Петербург, ул. Б.Конюшенная д.19/8<br>
+				Телефон: +7(812)275-75-75<br>
+				<a href="map.html">nёrds</a>
+			</p>
+			<!-- Здесь будет форма "Напишите нам"-->
+			<div class="footer-social">
+				<p><b>Давайте дружить, это выгодно!</b></p>
+				<p>Скидка 10% для друзей из социальных сетей.</p>
+				<ul>
+					<li><a class="social-button" href="#">Вконтакте</a></li>
+					<li><a class="social-button" href="#">Фейсбук</a></li>
+					<li><a class="social-button" href="#">Инстаграм</a></li>
+				</ul>
+			</div>
+		</footer>
+	</body>
+	</html>
+
+
+
+
+
+
