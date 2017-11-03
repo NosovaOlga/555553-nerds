@@ -1,12 +1,123 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Нёрдс</title>
-  </head>
-  <body>
+<head>
+	<meta charset="UTF-8">
+	<title>Дизайн-студия Нёрдс</title>
+	<body>
+		<header class="main-header">
+			<nav class="main-navigation">
+				<a class="main-header-logo">
+					<img src="img/index-logo.svg" width="100" height="100" alt="Логотип дизайн-студии Нёрдс">
+				</a>
+				<ul class="site-navigation">
+					<li><a href="studio.html">Студия</a></li>
+					<li><a href="clients.html">Клиенты</a></li>
+					<li><a href="catalog.html">Магазин</a></li>
+					<li><a href="contacts.html">Контакты</a></li>
+				</ul>
+				<a class="basket" href="basket.html"><span>Корзина</span></a>
+			</nav>
+		</header>
+		<main class="container">
+			<h1 class="visually-hidden">Дизайн-студия Нёрдс</h1>
+			<section class="slogan">
+				<h2 class="slogan-headline">Долго, дорого,скрупулезно</h2>
+				<p>Математически выверенный дизайн для вашего сайта или мобильного приложения</p>
+				<img src="img/index-mobile.svg" width="100" height="100" alt="Мобильные телефоны">
+				<a class="button" href="info.html">Узнать больше</a>
+			</section>
+			<section class="services">
+				<ul class="services-item">
+					<li>
+						<img src="img/sites.svg" width="100" height="100" alt="Веб-сайты">
+						<h3>Веб-сайты</h3>
+						<p>Мир никогда не будет прежним после того как увидит ваш сай!</p>
+						<a class="button-red" href="order.html">Заказать</a>
+					</li>
+					<li>
+						<img src="img/annexes.svg" width="100" height="100" alt="Приложения">
+						<h3>Приложения</h3>
+						<p>Покорите топ-10 приложений в AppStore и Google Play</p>
+						<a class="button-green" href="order.html">Заказать</a>
+					</li>
+					<li>
+						<img src="img/presentations.svg" width="100" height="100" alt="Презентации">
+						<h3>Презентации</h3>
+						<p>Вы даже не подозреваете, насколько вы изумительны!</p>
+						<a class="button-yellow" href="order.html">Заказать</a>
+					</li>
+				</ul>
+			</section>
+			<div>
+				<p><b>Мы - маленькая но гордая дизайн-студия из Краснодара!</b></p>
+				<h4>Выполняем заказы на разработку:</h4>
+				<ul class="content">
+					<li>Веб-сайтов любо сложности</li>
+					<li>Мобильный приложений для IOS и Android</li>
+					<li>Слайдшоу и видео для корпоративных презентаций</li>
+				</ul>
+			</div>
+			<section class="quality">
+				<img src="img/index-logo.svg" width="100" height="100" alt="Логотип дизайн-студии Нёрдс">
+				<h5>С 2004 года любим точность во всем:</h5>
+				<ul class="quality-item">
+					<li><span class="%">146%</span> Уровень самоотдачи</li>
+					<li><span class="%">100%</span> Соблюдение сроков</li>
+					<li><span class="%">50%</span> Минимальная предоплата</li>
+				</ul>
+			</section>
+			<section class="partners">
+				<ul class="partners-item">
+					<li>
+						<h4 class="visually-hidden">Html Academy</h4>
+						<a class="partners-list" href="htmlacademy.ru/intensive/htmlcss">
+							<img src="img/htmlacademy-logo.svg" width="100" height="100" alt="Логотип Html Academy">
+						</a>
+					</li>
+					<li>
+						<h4 class="visually-hidden">Borodinsky</h4>
+						<a class="partners-list" href="Borodinsky.ru">
+							<img src="img/Borodinsky-logo.svg" width="100" height="100" alt="Логотип Borodinsky">
+						</a>
+					</li>
+					<li>
+						<h4 class="visually-hidden">Pink</h4>
+						<a class="partners-list" href="Pink.ru">
+							<img src="img/Pink-logo.svg" width="100" height="100" alt="Логотип Pink">
+						</a>
+					</li>
+					<li>
+						<h4 class="visually-hidden">Miska</h4>
+						<a class="partners-list" href="Miska.ru">
+							<img src="img/Miska-logo.svg" width="100" height="100" alt="Логотип Miska">
+						</a>
+					</li>
+				</ul>
+			</section>
+		</main>
+		<footer class="main-footer">
+			<p class="footer-contacts">
+				NЁRDS DESING STUDIO<br>
+				191186, Санкт-Петербург, ул. Б.Конюшенная д.19/8<br>
+				Телефон: +7(812)275-75-75<br>
+				<a href="map.html">nёrds</a>
+			</p>
+			<!-- Здесь будет форма "Напишите нам"-->
+			<div class="footer-social">
+				<p><b>Давайте дружить, это выгодно!</b></p>
+				<p>Скидка 10% для друзей из социальных сетей.</p>
+				<ul>
+					<li><a class="social-button" href="#">Вконтакте</a></li>
+					<li><a class="social-button" href="#">Фейсбук</a></li>
+					<li><a class="social-button" href="#">Инстаграм</a></li>
+				</ul>
+			</div>
+		</footer>
+	</body>
+	</html>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
 
-  </body>
-</html>
+
+
+
+
