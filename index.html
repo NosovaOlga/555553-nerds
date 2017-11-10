@@ -34,6 +34,9 @@
 			<p>Работать днем, как все? Мы против этого. Ближе к полуночи работ</p>
 			<img src="img/slider3.png" width="759" height="411" alt="Мобильные телефоны и планшеты">
 			<a class="button" href="info.html">Узнать больше</a>
+			<button class="button-slider button-slider-back" type="button"><img src="img/button-back.png" width="18" height="18" alt="кнопка назад"></button>
+			<button class="button-slider button-slider-middle" type="button"><img src="img/button-middle.png" width="18" height="18" alt="кнопка середина"></button>
+			<button class="button-slider button-slider-next" type="button"><img src="img/button-next.png" width="18" height="18" alt="кнопка вперед"></button>
 		</section>
 		<section class="services">
 			<ul class="services-list">
@@ -116,19 +119,40 @@
 			NЁRDS DESING STUDIO<br>
 			191186, Санкт-Петербург, ул. Б.Конюшенная д.19/8<br>
 			Телефон: +7(812)275-75-75<br>
-			<a href="map.html">nёrds</a>
+			<img src="img/maps.png"  width="1725" height="808" alt="Офис компании по адресу:Санкт-Петербург, ул. Б.Конюшенная д.19/8">
 		</p>
-		<section class="modal-dialog">
+		<section class="communications">
 			<h2>Напишите нам</h2>
-			<!-- Здесь будет форма -->
+			<form class="communications-form" method="post">
+				<p class="communications-item">
+					<label for="communications-name">
+						Ваше имя:
+					</label>
+					<input id="communications-name" type="text" name="name" value="" placeholder="Представьтесь, пожалуйста">
+				</p>
+				<p class="communications-item">
+					<label for="communications-email">
+						Ваш e-mail:
+					</label>
+					<input id="communications-email" type="email" name="email" value="" placeholder="Для отправки ответа">
+				</p>
+				<p class="communications-item">
+					<label for="communications-text">
+						Текст письма:
+						<input id="communications-text" type="text" name="text" value="" placeholder="В свободной форме">
+					</label>
+				</p>
+				<button class="batton" type="submit">Отправить</button>
+			</form>
+			<button class="modal-close"><img src="img/close-cross.svg" width="21" height="21" alt="кнопка закрыть"></button>
 		</section>
 		<div class="footer-social">
 			<p><b>Давайте дружить, это выгодно!</b></p>
 			<p>Скидка 10% для друзей из социальных сетей.</p>
 			<ul>
-				<li><a class="social-button" href="#">Вконтакте</a></li>
-				<li><a class="social-button" href="#">Фейсбук</a></li>
-				<li><a class="social-button" href="#">Инстаграм</a></li>
+				<li><a class="social-button" aria-label="В контакте" href="#">Вконтакте</a></li>
+				<li><a class="social-button" aria-label="Фейсбук" href="#">Фейсбук</a></li>
+				<li><a class="social-button" aria-label="Инстаграмм" href="#">Инстаграм</a></li>
 			</ul>
 		</div>
 	</footer>
