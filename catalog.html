@@ -3,6 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Каталог товаров Нёрдс</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 	<header class="main-header">
@@ -164,7 +167,7 @@
 					</li>
 				</ul>
 				<ul class="pagination-list">
-					<li class="pagination-item pagination-item-current"><a>1</a></li>
+					<li class="pagination-item-current"><a>1</a></li>
 					<li class="pagination-item"><a href="#">2</a></li>
 					<li class="pagination-item"><a href="#">3</a></li>
 					<li class="pagination-item"><a href="#next">Следующая</a></li>
@@ -173,45 +176,49 @@
 		</main>
 		<footer class="main-footer">
 			<p class="footer-contacts">
-				NЁRDS DESING STUDIO<br>
-				191186, Санкт-Петербург, ул. Б.Конюшенная д.19/8<br>
-				Телефон: +7(812)275-75-75<br>
-				<img src="img/maps.png"  width="1440" height="416" alt="Офис компании по адресу:Санкт-Петербург, ул. Б.Конюшенная д.19/8">
+				NЁRDS DESING STUDIO
 			</p>
-			<section class="communications">
-				<h2>Напишите нам</h2>
-				<form class="communications-form" method="post" action="https://echo.htmlacademy.ru">
-					<p class="communications-item">
-						<label for="communications-name">
-							Ваше имя:
-						</label>
-						<input id="communications-name" type="text" name="name" value="" placeholder="Представьтесь, пожалуйста">
-					</p>
-					<p class="communications-item">
-						<label for="communications-email">
-							Ваш e-mail:
-						</label>
-						<input id="communications-email" type="email" name="email" value="" placeholder="Для отправки ответа">
-					</p>
-					<p class="communications-item">
-						<label for="communications-text">
-							Текст письма:
-							<input id="communications-text" type="text" name="text" value="" placeholder="В свободной форме">
-						</label>
-					</p>
-					<button class="batton" type="submit">Отправить</button>
-				</form>
-				<button class="modal-close"><img src="img/close-cross.svg" width="21" height="21" alt="кнопка закрыть"></button>
-			</section>
-			<div class="footer-social">
-				<p><b>Давайте дружить, это выгодно!</b></p>
-				<p>Скидка 10% для друзей из социальных сетей.</p>
-				<ul>
-					<li><a class="social-button" aria-label="В контакте" href="#">Вконтакте</a></li>
-					<li><a class="social-button" aria-label="Фейсбук" href="#">Фейсбук</a></li>
-					<li><a class="social-button" aria-label="Инстаграмм" href="#">Инстаграм</a></li>
-				</ul>
-			</div>
-		</footer>
-	</body>
-	</html>
+			<p class="footer-contacts-text">
+				191186, Санкт-Петербург, ул. Б.Конюшенная д.19/8<br>
+				телефон: +7(812)275-75-75<br>
+			</p>
+			<img src="img/maps.png"  width="1440" height="416" alt="Офис компании по адресу:Санкт-Петербург, ул. Б.Конюшенная д.19/8">
+		<section class="communications">
+			<h2>Напишите нам</h2>
+			<form class="communications-form" method="post" action="https://echo.htmlacademy.ru">
+				<p class="communications-item">
+					<label for="communications-name">
+						Ваше имя:
+					</label>
+					<input id="communications-name" type="text" name="name" value="" placeholder="Представьтесь, пожалуйста">
+				</p>
+				<p class="communications-item">
+					<label for="communications-email">
+						Ваш e-mail:
+					</label>
+					<input id="communications-email" type="email" name="email" value="" placeholder="Для отправки ответа">
+				</p>
+				<p class="communications-item">
+					<label for="communications-text">
+						Текст письма:
+						<input id="communications-text" type="text" name="text" value="" placeholder="В свободной форме">
+					</label>
+				</p>
+				<button class="batton" type="submit">Отправить</button>
+			</form>
+			<button class="modal-close"><img src="img/close-cross.svg" width="21" height="21" alt="кнопка закрыть"></button>
+		</section>
+		<div class="footer-social">
+			<p class="footer-social-caption"><b>Давайте дружить, это выгодно!</b>
+			</p>
+			<p class="footer-social-item">Скидка 10% для друзей из социальных сетей.
+			</p>
+			<ul>
+				<li><a class="social-button" aria-label="В контакте" href="#">Вконтакте</a></li>
+				<li><a class="social-button" aria-label="Фейсбук" href="#">Фейсбук</a></li>
+				<li><a class="social-button" aria-label="Инстаграмм" href="#">Инстаграм</a></li>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>

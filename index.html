@@ -3,6 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Дизайн-студия Нёрдс</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 	<header class="main-header">
@@ -22,7 +25,7 @@
 	<main class="container">
 		<h1 class="visually-hidden">Дизайн-студия Нёрдс</h1>
 		<section class="slogan-slider">
-			<div class="clider-1">
+			<div class="slider-1">
 				<h2 class="slogan-slider-headline">Долго, дорого,скрупулезно</h2>
 				<p>Математически выверенный дизайн для вашего сайта или мобильного приложения</p>
 				<img src="img/slider1.png" width="698" height="413" alt="Мобильные телефоны">
@@ -49,7 +52,7 @@
 				<li class="services-item">
 					<img src="img/sites.png" width="300" height="146" alt="Веб-сайты">
 					<h3>Веб-сайты</h3>
-					<p class="services-item-text">Мир никогда не будет прежним после того как увидит ваш сай!</p>
+					<p class="services-item-text">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
 					<a class="button-red" href="order.html">Заказать</a>
 				</li>
 				<li class="services-item">
@@ -68,9 +71,11 @@
 		</section>
 		<section class="we">
 			<p class="we-text"><b>Мы - маленькая но гордая дизайн-студия из Краснодара!</b></p>
+			<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет
+			превыше креатива. Работаем не покладая рук, как роботы. </p>
 			<h4>Выполняем заказы на разработку:</h4>
 			<ul class="content">
-				<li>Веб-сайтов любо сложности</li>
+				<li>Веб-сайтов любой сложности</li>
 				<li>Мобильный приложений для IOS и Android</li>
 				<li>Слайдшоу и видео для корпоративных презентаций</li>
 			</ul>
@@ -122,13 +127,15 @@
 	</main>
 	<footer class="main-footer">
 		<p class="footer-contacts">
-			NЁRDS DESING STUDIO<br>
-			191186, Санкт-Петербург, ул. Б.Конюшенная д.19/8<br>
-			Телефон: +7(812)275-75-75<br>
-			<img src="img/maps.png"  width="1440" height="416" alt="Офис компании по адресу:Санкт-Петербург, ул. Б.Конюшенная д.19/8">
+			NЁRDS DESING STUDIO
 		</p>
+		<p class="footer-contacts-text">
+			191186, Санкт-Петербург, ул. Б.Конюшенная д.19/8<br>
+			телефон: +7(812)275-75-75<br>
+		</p>
+		<img src="img/maps.png"  width="1440" height="416" alt="Офис компании по адресу:Санкт-Петербург, ул. Б.Конюшенная д.19/8">
 		<section class="communications">
-			<h2>Напишите нам</h2>
+			<h2 class="modal">Напишите нам</h2>
 			<form class="communications-form" method="post" action="https://echo.htmlacademy.ru">
 				<p class="communications-item">
 					<label for="communications-name">
@@ -148,13 +155,15 @@
 						<input id="communications-text" type="text" name="text" value="" placeholder="В свободной форме">
 					</label>
 				</p>
-				<button class="batton" type="submit">Отправить</button>
+				<button class="button" type="submit">Отправить</button>
 			</form>
 			<button class="modal-close"><img src="img/close-cross.svg" width="21" height="21" alt="кнопка закрыть"></button>
 		</section>
 		<div class="footer-social">
-			<p><b>Давайте дружить, это выгодно!</b></p>
-			<p>Скидка 10% для друзей из социальных сетей.</p>
+			<p class="footer-social-caption"><b>Давайте дружить, это выгодно!</b>
+			</p>
+			<p class="footer-social-item">Скидка 10% для друзей из социальных сетей.
+			</p>
 			<ul>
 				<li><a class="social-button" aria-label="В контакте" href="#">Вконтакте</a></li>
 				<li><a class="social-button" aria-label="Фейсбук" href="#">Фейсбук</a></li>
