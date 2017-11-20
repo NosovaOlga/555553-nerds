@@ -38,7 +38,7 @@
 				</fieldset>
 				<fieldset>
 					<legend>Сетка:</legend>
-					<ul>
+					<ul class="filter-option">
 						<li class="filter-option-grid">
 							<input class="visually-hidden filter-input filter-input-radio" id="filter-adaptive" type="radio" name="grid-group" value="adaptive" checked>
 							<label for="filter-adaptive">Адаптивная</label>
@@ -55,7 +55,7 @@
 				</fieldset>
 				<fieldset>
 					<legend>Особенности:</legend>
-					<ul>
+					<ul class="filter-option">
 						<li class="filter-option-feature">
 							<input class="visually-hidden filter-input filter-input-checkbox" id="filter-slider" type="checkbox" name="slider" checked>
 							<label for="filter-slider">Слайдер</label>
@@ -83,7 +83,7 @@
 		</section>
 		<section class="filter-list">
 			<h2 class="filter-title">Сортировать:</h2>
-			<ul>
+			<ul class="filter-type">
 				<li class="visually-hidden filter-item">
 					<a href="#">по цене</a>
 				</li>
@@ -93,7 +93,7 @@
 				<li class="visually-hidden filter-item">
 					<a href="#">по названию</a></li>
 				</ul>
-				<ul>
+				<ul class="filter-arrow">
 					<li class="visually-hidden arrow-bottom">
 						<a href="#" aria-label="сортировка по возрастанию">по возрастанию</a>
 					</li>
@@ -183,42 +183,42 @@
 				телефон: +7(812)275-75-75<br>
 			</p>
 			<img src="img/maps.png"  width="1440" height="416" alt="Офис компании по адресу:Санкт-Петербург, ул. Б.Конюшенная д.19/8">
-		<section class="communications">
-			<h2>Напишите нам</h2>
-			<form class="communications-form" method="post" action="https://echo.htmlacademy.ru">
-				<p class="communications-item">
-					<label for="communications-name">
-						Ваше имя:
-					</label>
-					<input id="communications-name" type="text" name="name" value="" placeholder="Представьтесь, пожалуйста">
+			<section class="communications">
+				<h2>Напишите нам</h2>
+				<form class="communications-form" method="post" action="https://echo.htmlacademy.ru">
+					<p class="communications-item">
+						<label for="communications-name">
+							Ваше имя:
+						</label>
+						<input id="communications-name" type="text" name="name" value="" placeholder="Представьтесь, пожалуйста">
+					</p>
+					<p class="communications-item">
+						<label for="communications-email">
+							Ваш e-mail:
+						</label>
+						<input id="communications-email" type="email" name="email" value="" placeholder="Для отправки ответа">
+					</p>
+					<p class="communications-item">
+						<label for="communications-text">
+							Текст письма:
+							<input id="communications-text" type="text" name="text" value="" placeholder="В свободной форме">
+						</label>
+					</p>
+					<button class="batton" type="submit">Отправить</button>
+				</form>
+				<button class="modal-close"><img src="img/close-cross.svg" width="21" height="21" alt="кнопка закрыть"></button>
+			</section>
+			<div class="footer-social">
+				<p class="footer-social-caption"><b>Давайте дружить, это выгодно!</b>
 				</p>
-				<p class="communications-item">
-					<label for="communications-email">
-						Ваш e-mail:
-					</label>
-					<input id="communications-email" type="email" name="email" value="" placeholder="Для отправки ответа">
+				<p class="footer-social-item">Скидка 10% для друзей из социальных сетей.
 				</p>
-				<p class="communications-item">
-					<label for="communications-text">
-						Текст письма:
-						<input id="communications-text" type="text" name="text" value="" placeholder="В свободной форме">
-					</label>
-				</p>
-				<button class="batton" type="submit">Отправить</button>
-			</form>
-			<button class="modal-close"><img src="img/close-cross.svg" width="21" height="21" alt="кнопка закрыть"></button>
-		</section>
-		<div class="footer-social">
-			<p class="footer-social-caption"><b>Давайте дружить, это выгодно!</b>
-			</p>
-			<p class="footer-social-item">Скидка 10% для друзей из социальных сетей.
-			</p>
-			<ul>
-				<li><a class="social-button" aria-label="В контакте" href="#">Вконтакте</a></li>
-				<li><a class="social-button" aria-label="Фейсбук" href="#">Фейсбук</a></li>
-				<li><a class="social-button" aria-label="Инстаграмм" href="#">Инстаграм</a></li>
-			</ul>
-		</div>
-	</footer>
-</body>
-</html>
+				<ul>
+					<li><a class="social-button" aria-label="В контакте" href="#">Вконтакте</a></li>
+					<li><a class="social-button" aria-label="Фейсбук" href="#">Фейсбук</a></li>
+					<li><a class="social-button" aria-label="Инстаграмм" href="#">Инстаграм</a></li>
+				</ul>
+			</div>
+		</footer>
+	</body>
+	</html>

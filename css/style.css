@@ -263,6 +263,41 @@ table {
 .site-navigation-current {
 	border-bottom: 2px solid #fb565a;
 }
+.filter-option {
+	list-style: none;
+}
+.filter-type {
+	list-style: none;
+}
+.filter-arrow {
+	list-style: none;
+}
+.filter-type a {
+	font-size: 14px;
+	line-height: 18px;
+	color: #000000;
+	opacity: 0.3;
+	text-transform: uppercase;
+}
+.filter-type a:hover {
+	font-size: 14px;
+	line-height: 18px;
+	color: #000000;
+	opacity: 0.6;
+	text-transform: uppercase;
+}
+.filter-type a:focus {
+	font-size: 14px;
+	line-height: 18px;
+	color: #000000;
+	text-transform: uppercase;
+}
+.filter-type a: active {
+	font-size: 14px;
+	line-height: 18px;
+	color: #000000;
+	text-transform: uppercase;
+}
 .filtres fieldset {
 	border: none;
 }
