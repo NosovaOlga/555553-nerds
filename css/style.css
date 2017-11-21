@@ -24,11 +24,11 @@ a {
 	border: none;
 	border-radius: 2px;
 }
-.button:hover {
+.button:hover, focus {
 	color: #ffffff;
 	background-color: #e74246;
 }
-.button:focus {
+.button:active {
 	color: #ffffff;
 	opacity: 0.3;
 	background-color: #d7373b;
@@ -57,12 +57,12 @@ a {
 .basket {
 	color: #000000;
 }
-.site-navigation a:hover,
-.basket:hover {
+.site-navigation a:hover, focus,
+.basket:hover, focus {
 	color: #fb565a;
 }
-.site-navigation a:focus,
-.basket:focus {
+.site-navigation a:active,
+.basket:active {
 	color: #000000;
 	opacity: 0.3;
 }
@@ -75,12 +75,7 @@ a {
 .slogan-slider {
 	background-color: #eeeeee;
 }
-h4 {
-	font-size: 16px;
-	line-height: 24px;
-	color: #000000;
-	text-transform: uppercase;
-}
+
 .we-text {
 	font-size: 45px;
 	line-height: 45px;
@@ -90,7 +85,7 @@ h4 {
 	font-size: 16px;
 	line-height: 24px;
 }
-h5 {
+.quality-slogan {
 	font-size: 16px;
 	line-height: 24px;
 	color: #000000;
@@ -109,7 +104,7 @@ h5 {
 	line-height: 30px;
 	text-transform: uppercase;
 }
-table {
+.quality-table {
 	border-collapse: collapse;
 	border: 2px solid #ffffff;
 }
@@ -133,13 +128,12 @@ table {
 
 	background-color: #fb565a;
 }
-.button-red:hover {
+.button-red:hover, focus {
 	color: #ffffff;
 	background-color: #e74246;
 }
-.button-red:focus {
-	color: #ffffff;
-	opacity: 0.3;
+.button-red:active {
+	color: rgba(255, 255 ,255 ,0.3);
 	background-color: #d7373b;
 	box-shadow: inset 3px 0 0 rgba(0, 1, 1, 0.1);
 }
@@ -152,13 +146,12 @@ table {
 
 	background-color: #00ca74;
 }
-.button-green:hover {
+.button-green:hover, focus {
 	color: #ffffff;
 	background-color: #00bc6c;
 }
-.button-green:focus {
-	color: #ffffff;
-	opacity: 0.3;
+.button-green:active {
+	color: rgba(255, 255, 255, 0.3);
 	background-color: #00aa62;
 	box-shadow: inset 3px 0 0 rgba(0, 1, 1, 0.1)
 }
@@ -171,26 +164,29 @@ table {
 
 	background-color: #efc84a;
 }
-.button-yellow:hover {
+.button-yellow:hover, focus {
 	color: #ffffff;
 	background-color: #eab534;
 }
-.button-yellow:focus {
-	color: #ffffff;
-	opacity: 0.3;
+.button-yellow:active {
+	color: rgba(255, 255, 255, 0.3);
 	background-color: #e5a722;
 	box-shadow: inset 3px 0 0 rgba(0, 1, 1, 0.1)
 }
 .partners-list {
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+	text-transform: uppercase;
 	list-style: none;
 }
 .partners-item {
 	opacity: 0.2;
 }
-.partners-item:hover {
+.partners-item:hover, focus {
 	opacity: 1;
 }
-.partners-item:focus {
+.partners-item:active {
 	opacity: 0.1;
 }
 .footer-contacts {
@@ -209,6 +205,9 @@ table {
 }
 .footer-social {
 	text-align: center;
+}
+.social-link {
+	list-style: none;
 }
 .footer-social-caption {
 	font-size: 36px;
@@ -244,6 +243,11 @@ table {
 	background-color: #ffffff;
 	border: 2px solid #e1e1e1;
 }
+.communications-form input:hover {
+	border-color: #000000;
+	color: #000000;
+	opacity: 0.5;
+}
 .communications-form input:focus {
 	border-color: #000000;
 	color: #444444;
@@ -258,7 +262,7 @@ table {
 	line-height: 55px;
 	color: #000000;
 
-	background-color: "#eeeeee";
+	background-color: #eeeeee;
 }
 .site-navigation-current {
 	border-bottom: 2px solid #fb565a;
@@ -272,27 +276,21 @@ table {
 .filter-arrow {
 	list-style: none;
 }
-.filter-type a {
+.filter-item a {
 	font-size: 14px;
 	line-height: 18px;
 	color: #000000;
 	opacity: 0.3;
 	text-transform: uppercase;
 }
-.filter-type a:hover {
+.filter-item a:hover, focus {
 	font-size: 14px;
 	line-height: 18px;
 	color: #000000;
 	opacity: 0.6;
 	text-transform: uppercase;
 }
-.filter-type a:focus {
-	font-size: 14px;
-	line-height: 18px;
-	color: #000000;
-	text-transform: uppercase;
-}
-.filter-type a: active {
+.filter-item a:active {
 	font-size: 14px;
 	line-height: 18px;
 	color: #000000;
@@ -315,7 +313,7 @@ table {
 .filter-input:focus + label {
 	color: #000000;
 }
-.filter-input:desabled + label {
+.filter-input:disabled + label {
 	color: #ededed;
 	opacity: 0.3;
 }
@@ -327,18 +325,20 @@ table {
 	background-color: #eeeeee;
 	border-radius: 2px;
 }
-.filter-batton:hover {
+.filter-batton:hover, focus {
 	background-color: #dfdfdf;
+}
 
-}
-.filter-batton:focus {
-	background-color: #dfdfdf;
-}
 .filter-batton:active {
-	color: #000000;
-	opacity: 0.3;
+	color: rgba(0, 0, 0, 0.3);
 	background-color: #d5d5d5;
-	box-shadow: inset 3px 0 0 rgba(0, 1, 1, 0.1)
+	box-shadow: inset 3px 0 0 rgba(0, 1, 1, 0.1);
+}
+.filter-item-current a {
+	font-size: 14px;
+	line-height: 18px;
+	color: #000000;
+	text-transform: uppercase
 }
 .catalog-list {
 	list-style: none;
@@ -365,12 +365,12 @@ a.button-buy {
 
 	background-color: #fb565a;
 }
-.button-buy a: hover {
+a.button-buy:hover, focus {
 	color: #ffffff;
 
 	background-color: #e74246;
 }
-.button-buy a: focus {
+a.button-buy:active {
 	color: #ffffff;
 
 	background-color: #d7373b;
@@ -383,20 +383,16 @@ a.button-buy {
 
 	background-color: #eeeeee;
 }
-.pagination-item a:hover {
+.pagination-item a:hover, focus {
 	color: #000000;
-
-	background-color: #dfdfdf;
-}
-.pagination-item a:focus {
-	color: #a9a9a9;
 
 	background-color: #d5d5d5;
 }
 .pagination-item a:active {
-	color: #000000;
+	color: rgba(0, 1, 1, 0.3);
 
-	background-color: #ffffff;
+	background-color: #d5d5d5;
+	box-shadow: inset 2px 0 0 rgba(0, 1, 1, 0.1);
 }
 .pagination-item-current {
 	color: #000000;
