@@ -24,7 +24,8 @@ a {
 	border: none;
 	border-radius: 2px;
 }
-.button:hover, focus {
+.button:hover,
+.button:focus {
 	color: #ffffff;
 	background-color: #e74246;
 }
@@ -57,8 +58,10 @@ a {
 .basket {
 	color: #000000;
 }
-.site-navigation a:hover, focus,
-.basket:hover, focus {
+.site-navigation a:hover,
+.site-navigation a:focus,
+.basket:hover,
+.basket:focus {
 	color: #fb565a;
 }
 .site-navigation a:active,
@@ -128,7 +131,8 @@ a {
 
 	background-color: #fb565a;
 }
-.button-red:hover, focus {
+.button-red:hover,
+.button-red:focus {
 	color: #ffffff;
 	background-color: #e74246;
 }
@@ -146,14 +150,15 @@ a {
 
 	background-color: #00ca74;
 }
-.button-green:hover, focus {
+.button-green:hover,
+.button-green:focus {
 	color: #ffffff;
 	background-color: #00bc6c;
 }
 .button-green:active {
 	color: rgba(255, 255, 255, 0.3);
 	background-color: #00aa62;
-	box-shadow: inset 3px 0 0 rgba(0, 1, 1, 0.1)
+	box-shadow: inset 3px 0 0 rgba(0, 1, 1, 0.1);
 }
 .button-yellow {
 	font: inherit;
@@ -164,7 +169,8 @@ a {
 
 	background-color: #efc84a;
 }
-.button-yellow:hover, focus {
+.button-yellow:hover,
+.button-yellow:focus {
 	color: #ffffff;
 	background-color: #eab534;
 }
@@ -183,7 +189,8 @@ a {
 .partners-item {
 	opacity: 0.2;
 }
-.partners-item:hover, focus {
+.partners-item:hover,
+.partners-item:focus {
 	opacity: 1;
 }
 .partners-item:active {
@@ -283,7 +290,8 @@ a {
 	opacity: 0.3;
 	text-transform: uppercase;
 }
-.filter-item a:hover, focus {
+.filter-item a:hover,
+.filter-item a:focus {
 	font-size: 14px;
 	line-height: 18px;
 	color: #000000;
@@ -325,7 +333,8 @@ a {
 	background-color: #eeeeee;
 	border-radius: 2px;
 }
-.filter-batton:hover, focus {
+.filter-batton:hover,
+.filter-batton:focus {
 	background-color: #dfdfdf;
 }
 
@@ -365,7 +374,8 @@ a.button-buy {
 
 	background-color: #fb565a;
 }
-a.button-buy:hover, focus {
+a.button-buy:hover,
+a.button-buy:focus {
 	color: #ffffff;
 
 	background-color: #e74246;
@@ -383,7 +393,8 @@ a.button-buy:active {
 
 	background-color: #eeeeee;
 }
-.pagination-item a:hover, focus {
+.pagination-item a:hover,
+.pagination-item a:focus {
 	color: #000000;
 
 	background-color: #d5d5d5;
