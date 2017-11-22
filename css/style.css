@@ -409,3 +409,131 @@ a.button-buy:active {
 	color: #000000;
 	background-color: #ffffff;
 }
+/* ----- Сеточные стили -----*/
+.main-navigation {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.main-header-logo {
+	width: 160px;
+	height: 65px;
+	order: 0;
+}
+.site-navigation {
+	margin: 0;
+	padding: 0;
+	width: 500px;
+}
+.basket {
+	width: 170px;
+}
+.container {
+	width: 1160px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.main-navigation .container {
+	display: flex;
+	justify-content: space-between;
+}
+.services-list {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 80px;
+}
+.services-item {
+	width: 300px;
+}
+.slogan-slider {
+	margin-bottom: 80px;
+}
+.index-columns {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 80px;
+}
+.we {
+	width: 660px;
+}
+.quality {
+	width: 360px;
+}
+.partners-list {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 80px;
+}
+.footer-social {
+	margin-top: 60px;
+}
+.footer-social .container {
+	display: flex;
+
+}
+.footer-social-column {
+	width: 560px;
+	margin: 0;
+	margin-left: 140px;
+}
+.social-link {
+	padding: 0;
+	margin: 0;
+	width: 260px;
+	order: 2;
+	margin-right: auto;
+}
+.inner-page .main-header {
+	margin-bottom: 80px;
+}
+.inner-page .main-header-logo {
+	width: 160px;
+	height: 65px;
+	order: 0;
+	margin-right: 200px;
+}
+.inner-page .main-navigation {
+	align-items: flex-start;
+	flex-direction: row;
+}
+.inner-page .basket {
+	margin-left: auto;
+}
+.page-title {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 165px;
+}
+.catalog-columns {
+	display: flex;
+	justify-content: space-between;
+}
+.filtres {
+	width: 260px;
+}
+.catalog {
+	width: 760px;
+}
+.catalog-item {
+	width:  360px;
+	margin-bottom: 30px;
+	margin-right: 40px;
+}
+.catalog-list {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 60px;
+}
+.catalog-item:nth-child(2n) {
+	margin-right: 0;
+}
+.pagination-list {
+	margin: 0;
+	padding: 0;
+}

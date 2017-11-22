@@ -10,18 +10,20 @@
 <body>
 	<header class="main-header">
 		<nav class="main-navigation">
-			<div class="container">
-				<a class="main-header-logo">
-					<img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип дизайн-студии Нёрдс">
-				</a>
-				<ul class="site-navigation">
-					<li><a href="studio.html">Студия</a></li>
-					<li><a href="clients.html">Клиенты</a></li>
-					<li><a href="catalog.html">Магазин</a></li>
-					<li><a href="contacts.html">Контакты</a></li>
-				</ul>
-				<a class="basket" href="basket.html" aria-label="Корзина"><span>Корзина</span></a>
-			</div>
+			<a class="main-header-logo">
+				<img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип дизайн-студии Нёрдс">
+			</a>
+			<div class="main-navigation-wrapper">
+				<div class="container">
+			<ul class="site-navigation">
+				<li><a href="studio.html">Студия</a></li>
+				<li><a href="clients.html">Клиенты</a></li>
+				<li><a href="catalog.html">Магазин</a></li>
+				<li><a href="contacts.html">Контакты</a></li>
+			</ul>
+			<a class="basket" href="basket.html" aria-label="Корзина"><span>Корзина</span></a>
+		</div>
+		</div>
 		</nav>
 	</header>
 	<main class="container">
@@ -70,36 +72,37 @@
 					<a class="button-yellow" href="order.html">Заказать</a>
 				</li>
 			</ul>
+			<div class="index-columns">
 		</section>
-		<div class="index-columns">
-			<section class="we">
-				<p class="we-text"><b>Мы - маленькая но гордая дизайн-студия из Краснодара!</b></p>
-				<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет
-				превыше креатива. Работаем не покладая рук, как роботы. </p>
-				<h4>Выполняем заказы на разработку:</h4>
-				<ul class="content">
-					<li>Веб-сайтов любой сложности</li>
-					<li>Мобильный приложений для IOS и Android</li>
-					<li>Слайдшоу и видео для корпоративных презентаций</li>
-				</ul>
-			</section>
-			<section class="quality">
-				<img src="img/nerds-illustration.png" width="360" height="208" alt="Логотип дизайн-студии Нёрдс">
-				<h5 class="quality-slogan">С 2004 года любим точность во всем:</h5>
-				<table class="quality-table">
-					<tr class="table-line">
-						<td class="table-item1">146%</td>
-						<td class="table-item1">100%</td>
-						<td class="table-item1">50%</td>
-					</tr>
-					<tr class="table-line">
-						<td class="table-item2">Уровень<br> самоотдачи</td>
-						<td class="table-item2">Соблюдение<br> сроков</td>
-						<td class="table-item2">Минимальная<br> предоплата</td>
-					</tr>
-				</table>
-			</section>
-		</div>
+		<section class="we">
+			<ul>
+			<p class="we-text"><b>Мы - маленькая но гордая дизайн-студия из Краснодара!</b></p>
+			<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет
+			превыше креатива. Работаем не покладая рук, как роботы. </p>
+			<h4>Выполняем заказы на разработку:</h4>
+			<ul class="content">
+				<li>Веб-сайтов любой сложности</li>
+				<li>Мобильный приложений для IOS и Android</li>
+				<li>Слайдшоу и видео для корпоративных презентаций</li>
+			</ul>
+		</section>
+		<section class="quality">
+			<img src="img/nerds-illustration.png" width="360" height="208" alt="Логотип дизайн-студии Нёрдс">
+			<h5 class="quality-slogan">С 2004 года любим точность во всем:</h5>
+			<table class="quality-table">
+				<tr class="table-line">
+					<td class="table-item1">146%</td>
+					<td class="table-item1">100%</td>
+					<td class="table-item1">50%</td>
+				</tr>
+				<tr class="table-line">
+					<td class="table-item2">Уровень<br> самоотдачи</td>
+					<td class="table-item2">Соблюдение<br> сроков</td>
+					<td class="table-item2">Минимальная<br> предоплата</td>
+				</tr>
+			</table>
+		</section>
+	</div>
 		<section class="partners-slider">
 			<ul class="partners-list">
 				<li>
@@ -130,6 +133,7 @@
 		</section>
 	</main>
 	<footer class="main-footer">
+		<div class="container">
 		<p class="footer-contacts">
 			NЁRDS DESING STUDIO
 		</p>
@@ -163,21 +167,18 @@
 			</form>
 			<button class="modal-close"><img src="img/close-cross.svg" width="21" height="21" alt="кнопка закрыть"></button>
 		</section>
-		<div class="container">
-			<div class="footer-social">
-				<div class="footer-social-column">
-					<p class="footer-social-caption"><b>Давайте дружить, это выгодно!</b>
-					</p>
-					<p class="footer-social-item">Скидка 10% для друзей из социальных сетей.
-					</p>
-				</div>
-				<ul class="social-link">
-					<li><a class="social-button" aria-label="В контакте" href="#">Вконтакте</a></li>
-					<li><a class="social-button" aria-label="Фейсбук" href="#">Фейсбук</a></li>
-					<li><a class="social-button" aria-label="Инстаграмм" href="#">Инстаграм</a></li>
-				</ul>
-			</div>
+		<div class="footer-social">
+			<p class="footer-social-caption"><b>Давайте дружить, это выгодно!</b>
+			</p>
+			<p class="footer-social-item">Скидка 10% для друзей из социальных сетей.
+			</p>
+			<ul class="social-link">
+				<li><a class="social-button" aria-label="В контакте" href="#">Вконтакте</a></li>
+				<li><a class="social-button" aria-label="Фейсбук" href="#">Фейсбук</a></li>
+				<li><a class="social-button" aria-label="Инстаграмм" href="#">Инстаграм</a></li>
+			</ul>
 		</div>
+	</div>
 	</footer>
 </body>
 </html>
