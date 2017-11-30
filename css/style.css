@@ -706,6 +706,9 @@ input[type="radio"].visually-hidden {
   font-weight: 400;
   color: #000000;
 }
+.inner-page .main-navigation {
+	padding-top: 46px;
+}
 
 .inner-page .main-header-logo {
 	width: 160px;
@@ -716,6 +719,7 @@ input[type="radio"].visually-hidden {
 .inner-page .main-navigation {
 	align-items: flex-start;
 	flex-direction: row;
+	padding-bottom: 40px;
 }
 .inner-page .basket {
 	margin-left: auto;
@@ -902,6 +906,13 @@ input[type="radio"].visually-hidden {
 	color: #000000;
 	text-transform: uppercase
 }
+.filter-option-feature::before {
+	width: 30px;
+	height: 35px;
+	content: "";
+	position: absolute;
+	background-color: url(../img.checkbox-off.svg);
+}
 .catalog {
 	width: 760px;
 }
@@ -919,11 +930,12 @@ input[type="radio"].visually-hidden {
 	margin-bottom: 60px;
 }
 .catalog-item {
-	width:  360px;
+	width: 360px;
 	margin-bottom: 30px;
 	margin-right: 40px;
-	padding-top: : 40px;
+	padding-top: 40px;
 	background-color: #4d4d4d;
+	border-radius: 3px 3px 0px 0px;
 }
 .catalog-item a {
 	color: #000000;
@@ -932,14 +944,54 @@ input[type="radio"].visually-hidden {
 	font-weight: 700;
 	text-transform: uppercase;
 }
+.catalog-item::before {
+	content: "";
+
+	width: 16px;
+	height: 16px;
+	background-color: #ffffff;
+	position: absolute;
+	border-radius: 50%;
+
+	box-shadow:
+    23px 0 0 0 white,
+    46px 0 0 0 white;
+}
 .catalog-item-text {
 	color: #000000;
 	font-size: 16px;
 	line-height: 18px;
 	color: #666666;
 }
+.catalog-item p {
+	padding: 0;
+	text-align: center;
+	margin-bottom: 28px;
+}
 .catalog-item:nth-child(2n) {
 	margin-right: 0;
+}
+.calalog-title {
+	font-size: 18px;
+	line-height: 13px;
+	text-transform: uppercase;
+	color: #000000;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+
+}
+.product-item {
+	display: flex;
+	width: 360px;
+	min-height: 230px;
+	background-color: #eeeeee;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	top: 415px;
+
 }
 a.button-buy {
 	color: #ffffff;
@@ -947,6 +999,13 @@ a.button-buy {
 	line-height: 18px;
 	text-transform: uppercase;
 	border-radius: 2px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 200px;
+	height: 50px;
 
 	background-color: #fb565a;
 }
