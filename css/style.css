@@ -832,6 +832,7 @@ display: none;
 	padding-top: 38px;
     padding-left: 85px;
     padding-bottom: 110px;
+    margin-bottom: 53px;
 
 }
 .site-navigation-current li {
@@ -966,21 +967,11 @@ display: none;
 	list-style: none;
 	display: flex;
 	width: 300px;
-}
-.arrow-bottom {
+
 	position: relative;
 }
-.arrow-bottom a::before {
-	content: "";
-	width: 10px;
-	height: 10px;
-	position: absolute;
-	background-image: url("../img/icon-down-dir.svg");
-	background-repeat: no-repeat;
-	background-position: 0 0;
 
-}
-.filter-item a {
+.filter-item  {
 	font-size: 14px;
 	line-height: 18px;
 	color: #000000;
@@ -1083,6 +1074,9 @@ input[type="checkbox"]:checked + label::before {
 
 	top: 0px;
     left: -40px;
+}
+.filter-input-radio input[type="radio"]:checked + label:hover::before {
+    background-color: #4d4d4d;
 }
 .filter-option-grid {
 	position: relative;
