@@ -360,7 +360,7 @@ input[type="radio"].visually-hidden {
 	text-transform: uppercase;
 	margin: 0;
 	padding: 0;
-	padding-top: 13px;
+	padding-top: 25px;
 }
 .services-item p {
 	max-width: 300px;
@@ -403,8 +403,8 @@ input[type="radio"].visually-hidden {
 
 	padding-top: 16px;
 	padding-bottom: 16px;
-	padding-left: 45px;
-	padding-right: 45px;
+	padding-left: 40px;
+    padding-right: 40px;
 
 }
 .button-red:hover,
@@ -431,8 +431,8 @@ input[type="radio"].visually-hidden {
 
 	padding-top: 16px;
 	padding-bottom: 16px;
-	padding-left: 45px;
-	padding-right: 45px;
+	padding-left: 40px;
+    padding-right: 40px;
 }
 .button-green:hover,
 .button-green:focus {
@@ -458,8 +458,8 @@ input[type="radio"].visually-hidden {
 
 	padding-top: 16px;
 	padding-bottom: 16px;
-	padding-left: 45px;
-	padding-right: 45px;
+	padding-left: 40px;
+    padding-right: 40px;
 }
 .button-yellow:hover,
 .button-yellow:focus {
@@ -803,6 +803,8 @@ display: none;
 }
 .inner-page .main-navigation {
 	padding-top: 49px;
+	align-items: flex-start;
+	flex-direction: row;
 }
 
 .inner-page .main-header-logo {
@@ -1122,6 +1124,13 @@ input[type="radio"] + label::before {
 .catalog-columns {
 	display: flex;
 	justify-content: space-between;
+}
+.calalog-goods {
+	display: flex;
+	justify-content: space-between;
+}
+.column-catalog {
+	width: 760px;
 }
 .catalog-list {
 	list-style: none;
