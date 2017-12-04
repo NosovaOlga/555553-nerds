@@ -486,7 +486,7 @@ input[type="radio"].visually-hidden {
 	border-bottom: 1px solid #eeeeee;
 	border-top: 1px solid #eeeeee;
 	padding-top: 47px;
-	padding-bottom: 47px;
+	padding-bottom: 38px;
 
 	align-items: center;
 }
@@ -503,15 +503,12 @@ input[type="radio"].visually-hidden {
 	box-sizing: border-box;
 }
 .partners-icon {
+	width: 260px;
+    height: 97px;
 	position: relative;
-	margin-left: 32px;
-    padding-right: 65px;
-}
-.partners-icon:first-child {
-	padding-right: 0;
-}
-.partners-icon:last-child {
-	margin-left: 0;
+	display: flex;
+	align-items:center;
+	justify-content: center;
 }
 .partners-icon a {
 }
@@ -521,11 +518,16 @@ input[type="radio"].visually-hidden {
 
     width: 2px;
     height: 54px;
+    top: 15px;
+    left: -21px;
 
   background: #eeeeee;
 }
+.partners-icon:first-child:after {
+	display: none;
+}
 .partners-slider {
-	margin-bottom: 72px;
+	margin-bottom: 81px;
 }
 .maps-contact {
 	margin: 0;
@@ -596,9 +598,14 @@ input[type="radio"].visually-hidden {
 	padding-top: 50px;
 	padding-bottom: 50px;
 
+	position: relative;
+}
+.map {
+	margin: 0;
 	position: absolute;
-	left: 93px;
-    top: 54px;
+	height:416px;
+	left: 50%;
+
 }
 .social-button {
 	height: 83px;
@@ -786,9 +793,6 @@ input[type="radio"].visually-hidden {
     margin-top: 20px;
 
 }
-.map {
-	margin: 0;
-}
 .inner-page {
   margin: 0;
   padding: 0;
@@ -867,7 +871,7 @@ input[type="radio"].visually-hidden {
 }
 .filter-container {
 	display: flex;
-	margin-bottom: 53px;
+	margin-bottom: 56px;
 }
 .filter-container-item {
 	display: flex;
@@ -999,7 +1003,7 @@ input[type="radio"].visually-hidden {
 .arrow-top {
     position: relative;
 }
-.arrow-bottom:before {
+.arrow-bottom a:before {
 	width: 12px;
 	height: 10px;
 	content: "";
@@ -1011,7 +1015,7 @@ input[type="radio"].visually-hidden {
 	top: 6px;
     left: 0px;
 }
-.arrow-top:before {
+.arrow-top a:before {
 	width: 12px;
 	height: 10px;
 	content: "";
@@ -1023,12 +1027,12 @@ input[type="radio"].visually-hidden {
 	top: 7px;
     left: -12px
 }
-.arrow-top a:hover,
-.arrow-bottom a:hover {
+.arrow-top:hover::before,
+.arrow-bottom:hover::before {
 	color: #a6a6a6;
 }
-.arrow-top:active,
-.arrow-bottom:active {
+.arrow-top a:active::before
+.arrow-bottom a:active::before {
 	color: #231f20;
 }
 
@@ -1226,17 +1230,20 @@ input[type="radio"] + label::before {
 }
 .catalog-item {
 	width: 360px;
-	margin-bottom: 26px;
+	margin-bottom: 33px;
 	margin-right: 40px;
 	padding-top: 40px;
 	background-color: rgba(0, 0, 0, 0.12);
 	border-radius: 3px 3px 0px 0px;
+	display: flex;
+
 
 	position: relative;
 }
 .catalog-item:hover {
 	background-color: #4d4d4d;
-	box-shadow: 0 15px 0 rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 6px 15px 0px rgba(0, 1, 1, 0.25);
+	border-style: 1px solid rgb(77, 77, 77, 0.1);
 }
 .catalog-item a {
 	color: #000000;
@@ -1361,7 +1368,7 @@ a.button-buy:active {
 	color: #000000;
 	display: block;
 	background-color: #eeeeee;
-	padding: 13px 13px;
+	padding: 12px 21px;
 }
 .pagination-item a:hover,
 .pagination-item a:focus {
