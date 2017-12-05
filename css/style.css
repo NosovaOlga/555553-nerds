@@ -1037,7 +1037,7 @@ input[type="radio"].visually-hidden {
     margin-right: -51px;
 }
 
-.filter-item .current a {
+.current .filter-type {
 	font-size: 14px;
 	line-height: 18px;
 	color: rgba(0, 0, 0, 1);
@@ -1347,13 +1347,21 @@ a.button-buy:active {
   line-height: 18px;
   font-weight: 500;
   text-transform: uppercase;
+
 }
 
 .pagination-item a {
 	color: #000000;
-	display: block;
+	height: 50px;
+	min-width: 50px;
 	background-color: #eeeeee;
-	padding: 13px 13px;
+	line-height: 50px;
+	display: block;
+	padding-bottom: 3px;
+    padding-top: 3px;
+    padding-left: 0px;
+    padding-right: 1px;
+    text-align: center;
 }
 .pagination-item a:hover,
 .pagination-item a:focus {
