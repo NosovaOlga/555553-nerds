@@ -1031,32 +1031,29 @@ input[type="radio"].visually-hidden {
 .filter-item {
 	font-size: 14px;
 	line-height: 18px;
-	color: #000000;
-	opacity: 0.3;
+	color: rgba(0, 0, 0, 0.3);
 	text-transform: uppercase;
 	margin-left: 76px;
     margin-right: -51px;
 }
 
-.filter-item-current {
+.filter-item .current a {
 	font-size: 14px;
 	line-height: 18px;
-	color: #000000;
-	opacity: 0.3;
+	color: rgba(0, 0, 0, 1);
 	text-transform: uppercase;
 }
 .filter-item a:hover,
 .filter-item a:focus {
 	font-size: 14px;
 	line-height: 18px;
-	color: #000000;
-	opacity: 0.6;
+	color: rgba(0, 0, 0, 0.6);
 	text-transform: uppercase;
 }
 .filter-item a:active {
 	font-size: 14px;
 	line-height: 18px;
-	color: #000000;
+	color: rgba(0, 0, 0, 1);
 	text-transform: uppercase;
 }
 .filtres fieldset {
@@ -1109,12 +1106,6 @@ input[type="radio"].visually-hidden {
 	color: rgba(0, 0, 0, 0.3);
 	background-color: #d5d5d5;
 	box-shadow: inset 3px 0 0 rgba(0, 1, 1, 0.1);
-}
-.filter-item-current a {
-	font-size: 14px;
-	line-height: 18px;
-	color: #000000;
-	text-transform: uppercase
 }
 .filter-option-feature {
 	position: relative;
