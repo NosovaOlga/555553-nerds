@@ -73,14 +73,13 @@ input[type="radio"].visually-hidden {
 .main-header {
 	background-color: #eeeeee;
 }
-.main-header-logo:hover {
+.main-header-logo:hover,
+.main-header-logo:focus {
 	opacity: 0.8;
 
-	width: 160px;
-	height: 65px;
 	order: 0;
 }
-.main-header-logo:focus {
+.main-header-logo:active {
 	opacity: 0.3;
 }
 .site-navigation {
@@ -532,9 +531,10 @@ input[type="radio"].visually-hidden {
 .maps-contact {
 	margin: 0;
 	padding: 0;
-	position: relative;
 	margin-bottom: 71px;
+	background-image: url("img/maps.png");
 }
+
 .footer-contacts {
 	color: #000000;
 	font-size: 18px;
@@ -597,14 +597,6 @@ input[type="radio"].visually-hidden {
 	padding-right: 50px;
 	padding-top: 50px;
 	padding-bottom: 50px;
-
-	position: relative;
-}
-.map {
-	margin: 0;
-	position: absolute;
-	height:416px;
-	left: 50%;
 
 }
 .social-button {
@@ -1027,11 +1019,11 @@ input[type="radio"].visually-hidden {
 	top: 7px;
     left: -12px
 }
-.arrow-top:hover::before,
-.arrow-bottom:hover::before {
+.arrow-top a:hover::before,
+.arrow-bottom a:hover::before {
 	color: #a6a6a6;
 }
-.arrow-top a:active::before
+.arrow-top a:active::before,
 .arrow-bottom a:active::before {
 	color: #231f20;
 }
@@ -1230,11 +1222,13 @@ input[type="radio"] + label::before {
 }
 .catalog-item {
 	width: 360px;
-	margin-bottom: 33px;
-	margin-right: 40px;
+	margin-bottom: 31px;
+	margin-right: 36px;
 	padding-top: 40px;
 	background-color: rgba(0, 0, 0, 0.12);
 	border-radius: 3px 3px 0px 0px;
+	border: 1px solid #e9e9e9;
+
 	display: flex;
 
 
@@ -1278,7 +1272,7 @@ input[type="radio"] + label::before {
 	padding: 0;
 	margin:0;
 	text-align: center;
-	margin-bottom: 28px;
+	margin-bottom: 26px;
 	padding-top: 5px;
 }
 .catalog-item:nth-child(2n) {
@@ -1326,8 +1320,8 @@ a.button-buy {
 
 	padding-left: 60px;
     padding-right: 60px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 13px;
+    padding-bottom: 14px;
 
 	background-color: #fb565a;
 
@@ -1368,7 +1362,7 @@ a.button-buy:active {
 	color: #000000;
 	display: block;
 	background-color: #eeeeee;
-	padding: 12px 21px;
+	padding: 13px 13px;
 }
 .pagination-item a:hover,
 .pagination-item a:focus {
