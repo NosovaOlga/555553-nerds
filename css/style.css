@@ -1034,10 +1034,10 @@ input[type="radio"].visually-hidden {
 	color: #000000;
 	opacity: 0.3;
 	text-transform: uppercase;
+	margin-left: 76px;
+    margin-right: -51px;
 }
-.filter-item:first-child {
-	margin-left:0;
-}
+
 .filter-item-current {
 	font-size: 14px;
 	line-height: 18px;
