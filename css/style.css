@@ -1013,6 +1013,7 @@ input[type="radio"].visually-hidden {
     padding: 0;
     justify-content: space-between;
 	margin: 0;
+	margin-left: 47px;
 
 }
 .arrow-bottom,
@@ -1070,8 +1071,8 @@ input[type="radio"].visually-hidden {
 	color: rgba(0, 0, 0, 0.3);
 	text-transform: uppercase;
 	display: block;
-	margin-right: 33px;
 	padding-top: 6px;
+	margin-left: 26px;
 }
 
 .filter-item.current a {
@@ -1224,6 +1225,7 @@ input[type="radio"] + label::before {
 	padding: 0;
 	margin: 0;
 	margin-right: auto;
+	padding-top: 3px;
 	font-size: 18px;
 	line-height: 18px;
 
