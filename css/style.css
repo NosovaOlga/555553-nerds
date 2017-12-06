@@ -1009,41 +1009,49 @@ input[type="radio"].visually-hidden {
     position: relative;
 }
 .arrow-bottom a:before {
-	width: 12px;
+	width: 11px;
 	height: 10px;
 	content: "";
 	position: absolute;
-	background-image: url("../img/icon-down-dir.svg");
-	color: #a6a6a6;
+	background-image: url("../img/bottom.svg");
 	opacity: 0.2;
+	
 
 	top: 6px;
     left: 0px;
 }
 .arrow-top a:before {
-	width: 12px;
+	width: 11px;
 	height: 10px;
 	content: "";
 	position: absolute;
-	background-image: url("../img/icon-up-dir.svg");
-	color: #a6a6a6;
+	background-image: url("../img/top.svg");
 	opacity: 0.2;
+	
 
 	top: 7px;
     left: -12px
 }
-.arrow-top a:hover::before {
-	background-image: url("../img/icon-down-hover.svg");
-
+.arrow-bottom.current a:before {
+	background-image: url("../img/bottom.svg");
+	opacity: 1;
 }
 .arrow-bottom a:hover::before {
-	background-image: url("../img/icon-up-hover.svg");
+	background-image: url("../img/bottom.svg");
+	opacity: 0.4;
 }
-.arrow-top a:active::before {
-	background-image: url("../img/icon-down-active.svg");
+.arrow-top a:hover::before {
+	background-image: url("../img/top.svg");
+	opacity: 0.4;
+
 }
 .arrow-bottom a:active::before {
-	background-image: url("../img/icon-up-active.svg");
+	background-image: url("../img/bottom.svg");
+	opacity: 1;
+}
+.arrow-top a:active::before {
+	background-image: url("../img/top.svg");
+	opacity: 1;
 }
 .filter-item a {
 	font-size: 14px;
