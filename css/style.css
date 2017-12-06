@@ -1017,7 +1017,7 @@ input[type="radio"].visually-hidden {
 	opacity: 0.2;
 	
 
-	top: 6px;
+	top: 8px;
     left: 0px;
 }
 .arrow-top a:before {
@@ -1029,7 +1029,7 @@ input[type="radio"].visually-hidden {
 	opacity: 0.2;
 	
 
-	top: 7px;
+	top: 8px;
     left: -12px
 }
 .arrow-bottom.current a:before {
