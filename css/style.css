@@ -1376,10 +1376,10 @@ a.button-buy:active {
 	line-height: 50px;
 	display: block;
 	border-radius: 2px;
-	padding-bottom: 3px;
+	padding-bottom: 0px;
     padding-top: 0px;
     padding-left: 0px;
-    padding-right: 1px;
+    padding-right: 0px;
     text-align: center;
 }
 .pagination-item a:hover,
@@ -1397,4 +1397,9 @@ a.button-buy:active {
 .pagination-item.current a {
 	background-color: #ffffff;
 	border: 2px solid #eeeeee;
+	padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+
 }
