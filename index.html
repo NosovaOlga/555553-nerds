@@ -133,55 +133,28 @@
 				</li>
 			</ul>
 		</section>
-		<div class="footer-contact-info">
-			<p class="footer-contacts">
-				NЁRDS DESIGN STUDIO
-			</p>
-			<p class="footer-contacts-text">
-				191186, Санкт-Петербург,<br>
-				ул. Б.Конюшенная д.19/8
-			</p>
-			<p class="footer-contacts-text">
-				тел. +7(812)275-75-75
-			</p>
-			<button class="button-communications-footer" type="submit">Напишите нам</button>
-		</div>
-		</main>
+	</main>
 	<section class="maps-contact">
+		<div class="container">
+			<div class="footer-contact-info">
+				<p class="footer-contacts">
+					NЁRDS DESIGN STUDIO
+				</p>
+				<p class="footer-contacts-text">
+					191186, Санкт-Петербург,<br>
+					ул. Б.Конюшенная д.19/8
+				</p>
+				<p class="footer-contacts-text">
+					тел. +7(812)275-75-75
+				</p>
+				<button class="button-communications-footer" type="submit">Напишите нам</button>
+			</div>
+		</div>
 		<div class="map visually-hidden">
-			<img src="img/maps.png"  width="1440" height="416" alt="Офис компании по адресу:Санкт-Петербург, ул. Б.Конюшенная д.19/8">
+			<img src="img/maps.png"  width="1300" height="416" alt="Офис компании по адресу:Санкт-Петербург, ул. Б.Конюшенная д.19/8">
 		</div>
 	</section>
 	<footer class="main-footer">
-		<section class=" modal communications">
-			<h2 class="modal-text">Напишите нам</h2>
-			<form class="communications-form" method="post" action="https://echo.htmlacademy.ru">
-				<div class="modal-flex">
-					<p class="communications-item">
-						<label for="communications-name">
-							Ваше имя:
-						</label>
-						<input id="communications-name" type="text" name="name" value="" placeholder="Представьтесь, пожалуйста">
-					</p>
-					<p class="communications-item">
-						<label for="communications-email">
-							Ваш e-mail:
-						</label>
-						<input id="communications-email" type="email" name="email" value="" placeholder="Для отправки ответа">
-					</p>
-				</div>
-				<p class="communications-item">
-					<label for="communications-text">
-						Текст письма:
-					</label>
-				</p>
-					<div class="communications-enter">
-						<textarea class="communications-enter" name="text" id="communications-text">В свободной форме</textarea>
-				</div>
-				<button class="button-communications" type="submit">Отправить</button>
-				<button class="modal-close" type="button">Закрыть</button>
-			</form>
-		</section>
 		<div class="container">
 			<div class="footer-social">
 				<ul class="social-link">
@@ -204,6 +177,33 @@
 			</div>
 		</div>
 	</footer>
+	<section class=" modal communications">
+		<h2 class="modal-text">Напишите нам</h2>
+		<form class="communications-form" method="post" action="https://echo.htmlacademy.ru">
+			<div class="modal-flex">
+				<p class="communications-item">
+					<label for="communications-name">
+						Ваше имя:
+					</label>
+					<input id="communications-name" type="text" name="name" value="" placeholder="Представьтесь, пожалуйста">
+				</p>
+				<p class="communications-item">
+					<label for="communications-email">
+						Ваш e-mail:
+					</label>
+					<input id="communications-email" type="email" name="email" value="" placeholder="Для отправки ответа">
+				</p>
+			</div>
+			<p class="communications-item">
+				<label for="communications-text">
+					Текст письма:
+				</label>
+				<textarea class="communications-enter" name="text" id="communications-text" placeholder="В свободной форме"></textarea>
+			</p>
+			<button class="button-communications" type="submit">Отправить</button>
+			<button class="modal-close" type="button">Закрыть</button>
+		</form>
+	</section>
 </body>
 </html>
 
