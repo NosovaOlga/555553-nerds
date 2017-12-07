@@ -329,6 +329,9 @@ input[type="radio"].visually-hidden {
 	margin-left: 15px;
     padding-top: 4px;
 }
+.image-services {
+	margin-bottom: 18px;
+}
 .services-list {
 	list-style: none;
 	margin: 0;
@@ -351,7 +354,6 @@ input[type="radio"].visually-hidden {
 	margin: 0;
 	margin-bottom: 16px;
 	padding: 0;
-	padding-top: 18px;
 }
 .services-item p {
 	max-width: 300px;
@@ -520,10 +522,11 @@ input[type="radio"].visually-hidden {
 .maps-contact {
 	margin: 0;
 	padding: 0;
-	height: 416px;
+	padding-top: 51px;
+    height: 365px;
 	margin-bottom: 53px;
 	background-image: url("../img/maps.png");
-	background-position: 50% 50%;
+	background-position: 50% 0%;
 }
 .footer-contacts {
 	color: #000000;
@@ -533,14 +536,23 @@ input[type="radio"].visually-hidden {
 	text-align: left;
 	text-transform: uppercase;
 	margin: 0;
-	margin-bottom: 22px;
+	padding:0;
+	margin-bottom: 23px;
 }
 .footer-contacts-text {
 	color: #666666;
 	font-size: 16px;
 	line-height: 18px;
 	text-align: left;
-	margin-bottom: 18px;
+	margin: 0;
+	padding: 0;
+}
+.footer-contacts-telephon {
+	margin-bottom: 19px;
+	color: #666666;
+	font-size: 16px;
+	line-height: 18px;
+	text-align: left;
 }
 .footer-social {
 	display: flex;
@@ -1202,7 +1214,6 @@ input[type="radio"]:checked + label::before {
   width: 25px;
   height: 25px;
   background-image: url("../img/radio-on.svg");
-  opacity: 0.4;
   color: #283136;
 
    top: -2px;
