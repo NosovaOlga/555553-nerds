@@ -1340,7 +1340,6 @@ input[type="radio"] + label::before {
 .product-item {
 	display: flex;
 	width: 360px;
-	min-height: 230px;
 	max-height: 576px;
 	background-color: #eeeeee;
 	flex-wrap: wrap;
@@ -1349,7 +1348,7 @@ input[type="radio"] + label::before {
 	flex-direction: column;
 	top: 386px;
 	position: absolute;
-	bottom: 0;
+	padding-bottom: 42px;
 
 	display: none;
 }
