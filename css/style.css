@@ -1254,7 +1254,7 @@ input[type="radio"] + label::before {
 .calalog-goods {
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 57px;
+	margin-bottom: 61px;
 }
 .column-catalog {
 	width: 760px;
