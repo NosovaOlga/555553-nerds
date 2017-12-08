@@ -501,9 +501,10 @@ input[type="radio"].visually-hidden {
 	margin: 0;
 	padding: 0;
 	padding-top: 51px;
-    height: 365px;
+	padding-bottom: 50px;
 	background-image: url("../img/maps.png");
 	background-position: 50% 0%;
+	background-repeat: no-repeat;
 }
 .footer-contacts {
 	color: #000000;
@@ -686,7 +687,6 @@ input[type="radio"].visually-hidden {
 }
 .communications-enter:hover {
 	border-color:rgba(0, 0 ,0 ,0.3);
-	color: #e1e1e1;
 }
 .communications-enter:focus {
 	border-color: #000000;
@@ -709,11 +709,9 @@ input[type="radio"].visually-hidden {
 	margin-left: -480px;
 	box-sizing: border-box;
 	z-index: 200;
-	display: none;
 }
 .communications-form input:hover {
 	border-color: rgba(0, 0 ,0 ,0.3);
-	color: #e1e1e1; 
 }
 .communications-form input:focus {
 	border-color: #000000;
