@@ -338,7 +338,7 @@ input[type="radio"].visually-hidden {
 	padding: 0;
 }
 .services-item p {
-	max-width: 300px;
+	max-width: 284px;
 	margin: 0;
 	padding: 0;
 	margin-bottom: 30px;
@@ -458,6 +458,10 @@ input[type="radio"].visually-hidden {
 	padding-bottom: 38px;
 	align-items: center;
 }
+.partners-item.html {
+    padding-top: 47px;
+	padding-bottom: 38px;
+}
 .partners-item {
 	display: inline-block;
 	opacity: 0.2;
@@ -532,6 +536,7 @@ input[type="radio"].visually-hidden {
 	margin: 0;
 	padding: 0;
 	margin-bottom: 21px;
+	letter-spacing: 0.6px;
 }
 .footer-contacts-text p {
 	margin-bottom: 10px;
@@ -569,7 +574,7 @@ input[type="radio"].visually-hidden {
 	margin-left: 140px;
 }
 .footer-contact-info {
-	width: 315px;
+	width: 313px;
 	background-color: #ffffff;
 	box-sizing: border-box;
 	padding-left: 50px;
@@ -892,7 +897,7 @@ input[type="radio"].visually-hidden {
 .range-filter {
     width: 260px;
     margin-top: 49px;
-    margin-bottom: 29px;
+    margin-bottom: 28px;
 }
 .range-controls {
     height: 41px;
@@ -968,7 +973,7 @@ input[type="radio"].visually-hidden {
 	padding-top: 10px;
 	padding-top: 16px;
     padding-left: 21px;
-    margin-bottom: 45px;
+    margin-bottom: 47px;
 }
 .filter-type {
 	list-style: none;
@@ -1073,6 +1078,7 @@ input[type="radio"].visually-hidden {
 	line-height: 30px;
 	font-weight: 500;
 	text-transform: uppercase;
+	letter-spacing: 0.7px;
 }
 .filtres ul {
 	font-size: 16px;
@@ -1118,7 +1124,7 @@ input[type="radio"].visually-hidden {
 	position: relative;
 	font-size: 16px;
 	line-height: 20px;
-	margin-bottom: 21px;
+	margin-bottom: 20px;
 	padding-left: 14px;
 	display: block;
 }
@@ -1259,7 +1265,7 @@ input[type="radio"] + label::before {
 	text-align: center;
 	width: 240px;
 	padding-left: 60px;
-	margin-bottom: 34px;
+    margin-bottom: 33px;
 }
 .catalog-item:nth-child(2n) {
 	margin-right: 0;
@@ -1271,7 +1277,7 @@ input[type="radio"] + label::before {
 	color: #000000;
 	text-align: center;
 	margin: 0;
-	margin-bottom: 5px;
+	margin-bottom: 2px;
     padding: 0px;
     padding-top: 16px;
 }
@@ -1287,7 +1293,7 @@ input[type="radio"] + label::before {
 	flex-direction: column;
 	bottom: 0;
 	position: absolute;
-	padding-bottom: 10px;
+	padding-bottom: 9px;
 	display: none;
 }
 .catalog-item:hover .product-item {
@@ -1298,6 +1304,7 @@ a.button-buy {
 	font-size: 16px;
 	line-height: 18px;
 	text-transform: uppercase;
+	min-height: 20px;
 	border-radius: 2px;
 	display: inline-block;
 	align-items: center;
@@ -1305,7 +1312,7 @@ a.button-buy {
 	z-index: 10;
 	padding-left: 60px;
     padding-right: 60px;
-    padding-top: 14px;
+    padding-top: 17px;
     padding-bottom: 14px;
 	background-color: #fb565a;
 }
