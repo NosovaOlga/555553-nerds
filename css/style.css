@@ -445,8 +445,6 @@ input[type="radio"].visually-hidden {
 	color: #000000;
 	text-transform: uppercase;
 	list-style: none;
-	background-image: url("img/divide.png");
-	background-image: url("img/div.png");
 	margin: 0;
 	padding: 0;
 	display: flex;
