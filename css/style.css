@@ -1333,6 +1333,8 @@ input[type="radio"] + label::before {
 	margin:0;
 	text-align: center;
 	width: 240px;
+	padding-left: 60px;
+	margin-bottom: 34px;
 }
 .catalog-item:nth-child(2n) {
 	margin-right: 0;
@@ -1344,6 +1346,7 @@ input[type="radio"] + label::before {
 	color: #000000;
 	text-align: center;
 	margin: 0;
+	margin-bottom: 5px;
     padding: 0px;
     padding-top: 16px;
 }
@@ -1359,7 +1362,7 @@ input[type="radio"] + label::before {
 	flex-direction: column;
 	bottom: 0;
 	position: absolute;
-	padding-bottom: 42px;
+	padding-bottom: 10px;
 
 	display: none;
 }
