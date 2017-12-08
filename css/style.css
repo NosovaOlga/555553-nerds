@@ -95,7 +95,8 @@ input[type="radio"].visually-hidden {
 .site-navigation:last-child {
 	margin-right: 0;
 }
-.basket {
+.basket,
+.basket-current {
 	max-width: 170px;
 	display: flex;
 	padding-left: 40px;
@@ -104,13 +105,15 @@ input[type="radio"].visually-hidden {
 	padding-top: 26px;	
 }
 .site-navigation,
-.basket {
+.basket,
+.basket-current {
 	list-style: none;
 	text-transform: uppercase;
 	color: #000000;
 }
 .site-navigation a,
-.basket {
+.basket,
+.basket-current {
 	color: #000000;
 }
 .site-navigation a:hover,
@@ -123,7 +126,8 @@ input[type="radio"].visually-hidden {
 .basket:active {
 	color: rgba(0, 0 ,0 ,0.3);
 }
-.basket::before {
+.basket::before,
+.basket-current::before {
 	content: "";
 	width: 18px;
 	height: 18px;
@@ -362,6 +366,7 @@ input[type="radio"].visually-hidden {
 }
 .services-list-text {
 	margin-bottom: 31px;
+	width: 260px;
 }
 .quality-table {
 	border-collapse: collapse;
@@ -381,6 +386,7 @@ input[type="radio"].visually-hidden {
 	font-size: 16px;
 	line-height: 18px;
 	padding-top: 3px;
+	width: 100px;
 }
 .table-item1 sup {
 	font-size: 61%;
@@ -524,7 +530,6 @@ input[type="radio"].visually-hidden {
 	padding: 0;
 	padding-top: 51px;
     height: 365px;
-	margin-bottom: 53px;
 	background-image: url("../img/maps.png");
 	background-position: 50% 0%;
 }
@@ -546,13 +551,19 @@ input[type="radio"].visually-hidden {
 	text-align: left;
 	margin: 0;
 	padding: 0;
+	margin-bottom: 19px;
 }
 .footer-contacts-telephon {
-	margin-bottom: 19px;
 	color: #666666;
 	font-size: 16px;
 	line-height: 18px;
 	text-align: left;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 21px;
+}
+.footer-contacts-text p {
+	margin-bottom: 10px;
 }
 .footer-social {
 	display: flex;
@@ -590,8 +601,7 @@ input[type="radio"].visually-hidden {
 	margin-left: 140px;
 }
 .footer-contact-info {
-	width: 319px;
-	height: 307px;
+	width: 315px;
 	background-color: #ffffff;
 	box-sizing: border-box;
 
@@ -620,7 +630,8 @@ input[type="radio"].visually-hidden {
   box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
 }
 .main-footer {
-	margin-bottom: 77px:;
+	padding-top: 50px;
+    padding-bottom: 50px
 }
 .modal-text {
 	font-size: 45px;
@@ -645,6 +656,9 @@ input[type="radio"].visually-hidden {
 
 	margin: 0;
 	padding: 0;
+}
+.communications-item input::-webkit-input-placeholder {
+	color: rgba(68, 68, 68, 0.5);
 }
 .textarea-container {
 	margin-top: 9px;
@@ -678,7 +692,7 @@ input[type="radio"].visually-hidden {
 	font-size: 16px;
 	line-height: 18px;
 	font: inherit;
-	color: #e1e1e1;
+	color: #444444;
 
 	background-color: #ffffff;
 	border: 2px solid #e1e1e1;
@@ -693,8 +707,9 @@ input[type="radio"].visually-hidden {
     min-height: 104px;
 	font-size: 16px;
 	line-height: 18px;
+	font-weight: 700;
 	font: inherit;
-	color: #e1e1e1;
+	color: #444444;
 
 	padding: 0;
 	margin: 0;
@@ -702,6 +717,9 @@ input[type="radio"].visually-hidden {
     padding-left: 12px;
     background-color: #ffffff;
 	border: 2px solid #e1e1e1;
+}
+.textarea-container textarea::-webkit-input-placeholder {
+	color: rgba(68, 68, 68, 0.5);
 }
 .communications-enter:hover {
 	border-color:rgba(0, 0 ,0 ,0.3);
@@ -728,12 +746,11 @@ input[type="radio"].visually-hidden {
 	margin-left: -480px;
 	box-sizing: border-box;
 	z-index: 200;
-
-	display: none;	
+	display: none;
 }
 .communications-form input:hover {
 	border-color: rgba(0, 0 ,0 ,0.3);
-	color: #e1e1e1; 	
+	color: #e1e1e1; 
 }
 .communications-form input:focus {
 	border-color: #000000;
@@ -746,41 +763,25 @@ input[type="radio"].visually-hidden {
 .modal-close {
   width: 23px;
   height: 23px;
-
   font-size: 0;
-  border: 0;
-  background-color: transparent;
-  cursor: pointer;
-}
-.modal-close::before,
-.modal-close::after {
-  content: "";
-
-  position: absolute;
-
-  width: 26px;
-  height: 3px;
-  top: 90px;
-  right: 89px;
-
-  background-color: #fb565a;
+  background-image: url("../img/close-cross.svg");
   opacity: 0.3;
+  outline: none;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  position: absolute;
+  top: 79px;
+  right: 90px;
+  background-color: #ffffff;
+  border: 0;
 }
-.modal-close::before {
-  transform: rotate(45deg);
+.modal-close:hover {
+	opacity: 1;
+	outline: none;
 }
-.modal-close::after {
-   transform: rotate(-45deg);
-}
-.modal-close:hover::before,
-.modal-close:hover::after {
-   background-color: #fb565a;
-   opacity: 1;
-}
-.modal-close:active::before,
-.modal-close:active::after {
-   background-color: #fb565a;
-   opacity: 0.1;
+.modal-close:active {
+	opacity: 0.1;
+	outline: none;
 }
 .button-communications {
 	font: inherit;
@@ -793,6 +794,7 @@ input[type="radio"].visually-hidden {
 	border-radius: 2px;
 	display: inline-block;
 	outline: none;
+	border: 0;
 
 	background-color: #fb565a;
 
@@ -807,7 +809,7 @@ input[type="radio"].visually-hidden {
 	background-color: #e74246;
 	outline: none;
 }
-.button-communications:active :{
+.button-communications:active {
 	color: rgba(255, 255 ,255 ,0.3);
 	background-color: #d7373b;
 	box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
@@ -831,8 +833,7 @@ input[type="radio"].visually-hidden {
 	padding-top: 17px;
     padding-bottom: 33px;
     position: relative;
-    margin-bottom: 48px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .button-communications-footer:hover {
     color: #ffffff;
@@ -894,19 +895,31 @@ input[type="radio"].visually-hidden {
     padding-bottom: 111px;
     margin-bottom: 53px;
 }
-.site-navigation-current a {
+.site-navigation-current a,
+.basket-current {
 	position: relative;
 }
 .site-navigation-current a:after {
 	content: "";
 	position: absolute;
-	width: 75px;
+	width: 100%;
 	height: 2px;
 	background-color: #fb565a;
 
 	top: 29px;
     right: -1px;
 }
+.basket-current:after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: #fb565a;
+
+	top: 60px;
+    right: -2px;
+}
+
 .filter-container {
 	display: flex;
 	margin-bottom: 54px;
@@ -1319,6 +1332,7 @@ input[type="radio"] + label::before {
 	padding: 0;
 	margin:0;
 	text-align: center;
+	width: 240px;
 }
 .catalog-item:nth-child(2n) {
 	margin-right: 0;
@@ -1330,23 +1344,20 @@ input[type="radio"] + label::before {
 	color: #000000;
 	text-align: center;
 	margin: 0;
-	margin-bottom: 4px;
     padding: 0px;
     padding-top: 16px;
-}
-.catalog-text-block {
-	margin-bottom: 33px;
 }
 .product-item {
 	display: flex;
 	width: 360px;
+	min-height: 189px;
 	max-height: 576px;
 	background-color: #eeeeee;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	top: 386px;
+	bottom: 0;
 	position: absolute;
 	padding-bottom: 42px;
 
