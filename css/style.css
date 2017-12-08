@@ -372,7 +372,6 @@ input[type="radio"].visually-hidden {
 }
 .button-red {
 	font: inherit;
-	width: 160px;
 	height: 36px;
 	color: #ffffff;
 	text-transform: uppercase;
@@ -381,6 +380,8 @@ input[type="radio"].visually-hidden {
 	border-radius: 3px;
 	display: inline-block;
 	padding-top: 14px;
+	padding-left: 39px;
+    padding-right: 40px;
 	background-color: #fb565a;
 }
 .button-red:hover,
@@ -395,7 +396,6 @@ input[type="radio"].visually-hidden {
 }
 .button-green {
 	font: inherit;
-	width: 160px;
 	height: 36px;
 	color: #ffffff;
 	text-transform: uppercase;
@@ -404,6 +404,8 @@ input[type="radio"].visually-hidden {
 	border-radius: 3px;
 	display: inline-block;
 	padding-top: 14px;
+	padding-left: 39px;
+    padding-right: 40px;
 	background-color: #00ca74;
 }
 .button-green:hover,
@@ -418,7 +420,6 @@ input[type="radio"].visually-hidden {
 }
 .button-yellow {
 	font: inherit;
-	width: 160px;
 	height: 36px;
 	color: #ffffff;
 	text-transform: uppercase;
@@ -427,6 +428,8 @@ input[type="radio"].visually-hidden {
 	border-radius: 3px;
 	display: inline-block;
 	padding-top: 14px;
+	padding-left: 39px;
+    padding-right: 40px;
 	background-color: #efc84a;
 }
 .button-yellow:hover,
