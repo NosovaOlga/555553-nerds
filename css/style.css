@@ -341,10 +341,7 @@ input[type="radio"].visually-hidden {
 	max-width: 300px;
 	margin: 0;
 	padding: 0;
-}
-.services-list-text {
-	margin-bottom: 31px;
-	width: 260px;
+	margin-bottom: 30px;
 }
 .quality-table {
 	border-collapse: collapse;
@@ -709,6 +706,7 @@ input[type="radio"].visually-hidden {
 	margin-left: -480px;
 	box-sizing: border-box;
 	z-index: 200;
+	display: none;
 }
 .communications-form input:hover {
 	border-color: rgba(0, 0 ,0 ,0.3);
