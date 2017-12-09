@@ -1285,8 +1285,9 @@ input[type="radio"] + label::before {
 	max-height: 576px;
 	background-color: #eeeeee;
 	bottom: 0;
+	text-align: center;
 	position: absolute;
-	padding-bottom: 10px;
+	padding-bottom: 42px;
 	padding-top: 16px;
 	display: none;
 }
