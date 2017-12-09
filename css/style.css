@@ -1265,7 +1265,7 @@ input[type="radio"] + label::before {
 	text-align: center;
 	width: 240px;
 	padding-left: 60px;
-    margin-bottom: 33px;
+    margin-bottom: 32px;
 }
 .catalog-item:nth-child(2n) {
 	margin-right: 0;
@@ -1277,23 +1277,17 @@ input[type="radio"] + label::before {
 	color: #000000;
 	text-align: center;
 	margin: 0;
-	margin-bottom: 2px;
+	margin-bottom: 4px;
     padding: 0px;
-    padding-top: 16px;
 }
 .product-item {
-	display: flex;
 	width: 360px;
-	min-height: 189px;
 	max-height: 576px;
 	background-color: #eeeeee;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
 	bottom: 0;
 	position: absolute;
-	padding-bottom: 9px;
+	padding-bottom: 10px;
+	padding-top: 16px;
 	display: none;
 }
 .catalog-item:hover .product-item {
