@@ -813,7 +813,7 @@ input[type="radio"].visually-hidden {
     position: relative;
     margin-top: 15px;
 }
-.button-communications-footer:hover
+.button-communications-footer:hover,
 .button-communications-footer:focus {
     color: #ffffff;
 	background-color: #e74246;
