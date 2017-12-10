@@ -694,15 +694,12 @@ input[type="radio"].visually-hidden {
 .textarea-container textarea::-webkit-input-placeholder {
 	color: rgba(68, 68, 68, 0.5);
 }
-.textarea-container textarea::-moz-placeholder {
-    color: rgba(68, 68, 68, 0.5);
-    }
-.textarea-container textarea:focus::-webkit-input-placeholder {
-	color: rgba(68, 68, 68, 1);
+.textarea-container textarea:-ms-input-placeholder {
+	color: rgba(68, 68, 68, 0.5);
 }
-.textarea-container textarea:focus::-moz-placeholder {
+.textarea-container textarea::-moz-placeholder {
     color: rgba(68, 68, 68, 1);
-    }
+}
 .communications-enter:hover {
 	border-color:rgba(0, 0 ,0 ,0.3);
 }
@@ -727,7 +724,6 @@ input[type="radio"].visually-hidden {
 	margin-left: -480px;
 	box-sizing: border-box;
 	z-index: 200;
-	display: none;
 }
 .communications-form input:hover {
 	border-color: rgba(0, 0 ,0 ,0.3);
@@ -1399,4 +1395,12 @@ a.button-buy:active {
     padding-top: 0px;
     padding-left: 0px;
     padding-right: 0px;
+}
+.pagination-item.current a:hover,
+.pagination-item.current a:focus,
+.pagination-item.current a:active {
+	background-color: #ffffff;
+	border: 2px solid #eeeeee;
+	color: #000000;
+	box-shadow: none;
 }
