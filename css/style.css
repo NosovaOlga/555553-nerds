@@ -675,12 +675,6 @@ input[type="radio"].visually-hidden {
 .communications-item input::-webkit-input-placeholder {
 	color: rgba(68, 68, 68, 0.5);
 }
-.communications-item input:focus:-ms-input-placeholder {
-	color: rgba(68, 68, 68, 1);
-}
-.communications-item input:focus::-webkit-input-placeholder {
-	color: rgba(68, 68, 68, 1);
-}
 .communications-enter {
 	width: 744px;
     min-height: 104px;
@@ -730,7 +724,6 @@ input[type="radio"].visually-hidden {
 	margin-left: -480px;
 	box-sizing: border-box;
 	z-index: 200;
-	display: none;
 }
 .communications-form input:hover {
 	border-color: rgba(0, 0 ,0 ,0.3);
