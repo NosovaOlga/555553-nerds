@@ -846,7 +846,7 @@ input[type="radio"].visually-hidden {
 	justify-content: space-between;
 }
 .column-filter {
-	width: 260px
+	width: 260px;
 }
 .column-catalog {
 	width: 760px;
