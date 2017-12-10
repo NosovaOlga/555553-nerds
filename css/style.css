@@ -664,6 +664,7 @@ input[type="radio"].visually-hidden {
 	color: #444444;
 	background-color: #ffffff;
 	border: 2px solid #e1e1e1;
+	outline: none;
     width: 360px;
     padding-left: 12px;
     padding-bottom: 12px;
@@ -686,6 +687,7 @@ input[type="radio"].visually-hidden {
 	color: #444444;
 	padding: 0;
 	margin: 0;
+	outline: none;
 	padding-top: 10px;
     padding-left: 12px;
     background-color: #ffffff;
