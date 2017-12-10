@@ -807,6 +807,7 @@ input[type="radio"].visually-hidden {
 	border-radius: 2px;
 	display: inline-block;
 	border: 0;
+	outline: 0;
 	background-color: #fb565a;
 	padding-top: 17px;
     padding-bottom: 33px;
@@ -817,12 +818,14 @@ input[type="radio"].visually-hidden {
 .button-communications-footer:focus {
     color: #ffffff;
 	background-color: #e74246;
+	border: 0;
 	outline: none;
 }
 .button-communications-footer:active {
     color: rgba(255, 255 ,255 ,0.3);
 	background-color: #d7373b;
 	box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+	border: 0;
 	outline: none;
 }
 .inner-page {
