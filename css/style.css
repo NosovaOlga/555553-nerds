@@ -474,6 +474,14 @@ input[type="radio"].visually-hidden {
 	opacity: 0.1;
 	box-sizing: border-box;
 }
+.partners-icon-img:hover,
+.partners-icon-img:focus {
+	opacity: 1;
+}
+.partners-icon-img:active {
+	color: rgba(129, 129, 129, 0.1);
+	box-sizing: border-box;
+}
 .partners-icon {
 	width: 260px;
     height: 97px;
