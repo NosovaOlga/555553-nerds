@@ -656,6 +656,7 @@ input[type="radio"].visually-hidden {
 }
 .communications-item input[type="text"],
 .communications-item input[type="email"] {
+    font-family: Roboto, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 18px;
 	font-weight: 400;
@@ -676,6 +677,7 @@ input[type="radio"].visually-hidden {
 	color: rgba(68, 68, 68, 0.5);
 }
 .communications-enter {
+    font-family: Roboto, Arial, sans-serif;
 	width: 744px;
     min-height: 104px;
 	font-size: 16px;
