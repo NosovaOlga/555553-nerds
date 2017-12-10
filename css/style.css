@@ -482,8 +482,6 @@ input[type="radio"].visually-hidden {
 	align-items:center;
 	justify-content: center;
 }
-.partners-icon a {
-}
 .partners-icon::after {
 	content: "";
 	position: absolute;
