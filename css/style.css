@@ -674,7 +674,13 @@ input[type="radio"].visually-hidden {
 .communications-item input:-ms-input-placeholder {
 	color: rgba(68, 68, 68, 0.5);
 }
+.communications-item input::-webkit-input-placeholder {
+	color: rgba(68, 68, 68, 0.5);
+}
 .communications-item input:focus:-ms-input-placeholder {
+	color: rgba(68, 68, 68, 1);
+}
+.communications-item input:focus::-webkit-input-placeholder {
 	color: rgba(68, 68, 68, 1);
 }
 .communications-enter {
