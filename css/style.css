@@ -62,12 +62,12 @@ input[type="radio"].visually-hidden {
 .main-header {
 	background-color: #eeeeee;
 }
-.main-header-logo:hover,
-.main-header-logo:focus {
+.main-header-logo-img:hover,
+.main-header-logo-img:focus {
 	opacity: 0.8;
 	order: 0;
 }
-.main-header-logo:active {
+.main-header-logo-img:active {
 	opacity: 0.3;
 }
 .site-navigation {
